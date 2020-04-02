@@ -7,4 +7,19 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portfolio';
+
+
+  constructor() {
+
+  }
+
+  ngOnInit(): void {
+
+  }
+
+  scroll(el: HTMLElement) {
+    el.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+  }
+
+
 }

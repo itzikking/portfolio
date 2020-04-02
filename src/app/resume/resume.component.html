@@ -1,0 +1,147 @@
+<div class="sidenav">
+    <ul>
+        <li>
+            <a (click)="scroll(Education)" class="current">Education</a>
+        </li>
+        <li>
+            <a (click)="scroll(Skills)" class="current">Skills</a>
+        </li>
+        <li>
+            <a (click)="scroll(Employment)" class="current">Employment</a>
+        </li>
+    </ul>
+</div>
+
+<div class="main">
+    <div #Education>
+        <div class="col-md-12">
+            <div id="page-1" class="page one">
+                <h2 class="heading">Education</h2>
+                <div class="resume-wrap">
+                    <div class="text pl-3">
+                        <span class="date">2019 – 2018</span>
+                        <h2>John Bryce College, Tel Aviv</h2>
+                        <span class="position">Degree: Full Stack WEB ,470 Academic hours</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div #Skills>
+        <div class="col-md-12">
+            <div id="page-2" class="page two">
+                <h2 class="heading">Skills</h2>
+                <div class="text pl-3">
+                    <div class="resume-wrap">
+                        <h2>Programing Languages</h2>
+                        <div class="glow-on-hover">
+                            <marquee class="marquee" behavior="scroll" direction="left" scrollamount="10">
+                                <i *ngFor="let ProgramingLanguage of ProgramingLanguages">
+                                    <img class="image" src="{{ProgramingLanguage}}">
+                                </i>
+                            </marquee>
+                        </div>
+                    </div>
+                    <div class="resume-wrap">
+                        <h2>Systems</h2>
+                        <div class="glow-on-hover">
+                            <marquee class="marquee" behavior="scroll" direction="left" scrollamount="10">
+                                <i *ngFor="let System of Systems">
+                                    <img class="image" src="{{System}}">
+                                </i>
+                            </marquee>
+                        </div>
+                    </div>
+                    <div class="resume-wrap">
+                        <h2>Front-end</h2>
+
+                        <div class="card TransparentCard">
+                            <h5 class="card-header position">
+                                <h4>Angular-9</h4>
+                            </h5>
+                            <div class="card-body">
+                                <p class="card-text" *ngFor="let a9 of angular9">{{a9}}</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="card TransparentCard">
+                            <h5 class="card-header position">
+                                <h4>React-v16.9</h4>
+                            </h5>
+                            <div class="card-body">
+                                <p class="card-text" *ngFor="let r of React">{{r}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resume-wrap">
+                        <h2>Back-end</h2>
+                        <div class="card TransparentCard">
+                            <h5 class="card-header position">
+                                <h4>Node.js</h4>
+                            </h5>
+                            <div class="card-body">
+                                <p class="card-text" *ngFor="let n of node">{{n}}</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="card TransparentCard">
+                            <h5 class="card-header position">
+                                <h4>C#</h4>
+                            </h5>
+                            <div class="card-body">
+                                <p class="card-text" *ngFor="let c of Csharp">{{c}}</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="card TransparentCard">
+                            <h5 class="card-header position">
+                                <h4>Code software</h4>
+                            </h5>
+                            <div class="card-body">
+                                <p class="card-text" *ngFor="let cs of CodeSoftware">{{cs}}</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="card TransparentCard">
+                            <h5 class="card-header position">
+                                <h4>Databases</h4>
+                            </h5>
+                            <div class="card-body">
+                                <p class="card-text" *ngFor="let db of Databases">{{db}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div #Employment>
+                <div class="col-md-12">
+                    <div id="page-1" class="page one">
+                        <h2 class="heading row"> Employment </h2>
+                        <div class="resume-wrap">
+                            <div class="text pl-3">
+                                <span class="date">2019 – 2018</span>
+                                <h2>Rimon Internet</h2>
+                                <span class="position">
+                                    Cellular network technician at Rimon Internet in 2019-2020 that
+                                    include
+                                    supporting app that shut out about Inappropriate content blocks.
+                                </span>
+                            </div>
+                        </div>
+                        <div class="resume-wrap">
+                            <div class="text pl-3">
+                                <span class="date">2016 – 2013</span>
+                                <h2>IDF military</h2>
+                                <span class="position">
+                                    Responsible for inventory management In a management role in the
+                                    logistics field of control camera systems to the logistics field “Operation firm
+                                    cliff”.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

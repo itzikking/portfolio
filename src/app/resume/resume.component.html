@@ -1,20 +1,21 @@
-<div class="sidenav">
-    <ul>
-        <li>
-            <a (click)="scroll(Education)" class="current">Education</a>
-        </li>
-        <li>
-            <a (click)="scroll(Skills)" class="current">Skills</a>
-        </li>
-        <li>
-            <a (click)="scroll(Employment)" class="current">Employment</a>
-        </li>
-    </ul>
+<div class="col-md-2">
+    <div class="sidenav">
+        <ul>
+            <li>
+                <a (click)="scroll(Education)" class="current">Education</a>
+            </li>
+            <li>
+                <a (click)="scroll(Skills)" class="current">Skills</a>
+            </li>
+            <li>
+                <a (click)="scroll(Employment)" class="current">Employment</a>
+            </li>
+        </ul>
+    </div>
 </div>
-
 <div class="main">
     <div #Education>
-        <div class="col-md-12">
+        <div class="col-md-10">
             <div id="page-1" class="page one">
                 <h2 class="heading">Education</h2>
                 <div class="resume-wrap">
@@ -28,7 +29,7 @@
         </div>
     </div>
     <div #Skills>
-        <div class="col-md-12">
+        <div class="col-md-10">
             <div id="page-2" class="page two">
                 <h2 class="heading">Skills</h2>
                 <div class="text pl-3">
@@ -114,7 +115,7 @@
                 </div>
             </div>
             <div #Employment>
-                <div class="col-md-12">
+                <div class="col-md-10">
                     <div id="page-1" class="page one">
                         <h2 class="heading row"> Employment </h2>
                         <div class="resume-wrap">

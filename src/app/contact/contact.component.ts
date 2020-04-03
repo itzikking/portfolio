@@ -11,7 +11,7 @@ export class ContactComponent implements OnInit {
     { i: "assets/icons/linkedin.png", header: "Linkedin", ref: "https://www.linkedin.com/in/itzik-saviya-764165185/", contact: "https://www.linkedin.com/in/itzik-saviya-764165185/" },
     { i: "assets/icons/github.webp", header: "Github", ref: "https://github.com/itzikking", contact: "https://github.com/itzikking" },
     { i: "assets/icons/gmail.png", header: "Gmail", ref: "mailto:itziksavaia@gmail.com", contact: "itziksavaia@gmail.com" },
-    { i: "assets/icons/phone.webp", header: "Phone", ref: "tel:+927503936369", contact: "050-3936369" },
+    { i: "assets/icons/phone.webp", header: "Phone", ref: "tel:0503936369", contact: "050-3936369" },
   ]
   constructor() { }
 

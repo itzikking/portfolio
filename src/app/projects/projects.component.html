@@ -3,17 +3,21 @@
     <div class="cols" *ngFor="let project of projects">
         <div class="col" ontouchstart="this.classList.toggle('hover');">
             <div class="container">
-                <div class="front" style="background-image: url(https://unsplash.it/504/504/)">
+                <div class="front" style="background-image: url({{project.imgFront}});">
                     <div class="inner">
                         <p>{{project.name}}</p>
                         <span>{{project.description}}</span>
                     </div>
                 </div>
-                <div class="back">
-                    <div class="inner">
-                        <p><a href="{{project.href}}">{{project.name}}</a></p>
-                        <span>{{project.description}}</span>
-                    </div>
+                <div class="back" style="background-image: url({{project.imgBack}});">
+                    <a href="{{project.href}}">
+                        <div class="inner">
+                            <p>
+                                <a href="{{project.href}}" style="color:black">{{project.name}}</a>
+                            </p>
+                            <span style="color:black">{{project.description}}</span>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>

@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectsComponent implements OnInit {
   projects = [
-    { name: "Network-Scanner", description: "The project chack if ping is ok or not.", href: "https://networkscanner.herokuapp.com/" },
+    // { name: "Network-Scanner", description: "The project chack if ping is ok or not.", href: "https://networkscanner.herokuapp.com/" },
     { name: "M-Market", description: "Super market online", href: "https://m-market-client.herokuapp.com/" }
   ]
 

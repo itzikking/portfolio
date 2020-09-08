@@ -16,7 +16,7 @@ export class ProjectsComponent implements OnInit {
     },
     {
       name: "NETMOVIES",
-      description: "movies trailer",
+      description: "Movies trailer",
       href: "https://net-movies-client.herokuapp.com/",
       imgFront: "../../assets/projects/net-movies/netmovies-512x512.png",
       imgBack: "../../assets/projects/net-movies/movies.bmp"

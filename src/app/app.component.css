@@ -74,14 +74,14 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
 }
 
 #flip {
-  height:50px;
+  height: 90px;
   overflow:hidden;
 }
 
 #flip > div > div {
   color:rgb(255, 255, 255);
   padding:4px 12px;
-  height:45px;
+  height:55px;
   margin-bottom:45px;
   display:inline-block;
 }

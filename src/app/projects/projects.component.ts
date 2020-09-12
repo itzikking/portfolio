@@ -20,7 +20,7 @@ export class ProjectsComponent implements OnInit {
       href: "https://net-movies-client.herokuapp.com/",
       imgFront: "../../assets/projects/net-movies/netmovies-512x512.png",
       imgBack: "../../assets/projects/net-movies/movies.bmp"
-    }
+    },
     {
       name: "Mosesbox-fit",
       description: "MMA",

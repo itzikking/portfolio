@@ -24,7 +24,7 @@ export class ProjectsComponent implements OnInit {
     {
       name: "Mosesbox-fit",
       description: "MMA",
-      href: "",
+      href: "https://mosesbox-fit.herokuapp.com/",
       imgFront: "../../assets/projects/Mosesbox-fit/moses.bmp",
       imgBack: "../../assets/projects/Mosesbox-fit/moses.bmp"
     }

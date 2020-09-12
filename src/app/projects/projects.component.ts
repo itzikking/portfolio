@@ -21,6 +21,13 @@ export class ProjectsComponent implements OnInit {
       imgFront: "../../assets/projects/net-movies/netmovies-512x512.png",
       imgBack: "../../assets/projects/net-movies/movies.bmp"
     }
+    {
+      name: "Mosesbox-fit",
+      description: "MMA",
+      href: "",
+      imgFront: "../../assets/projects/Mosesbox-fit/moses.bmp",
+      imgBack: "../../assets/projects/Mosesbox-fit/moses.bmp"
+    }
   ]
 
   constructor() { }

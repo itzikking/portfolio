@@ -1,23 +1,25 @@
 <div class="wrapper">
-    <h2 class="mb-4">Projects</h2>
-    <div class="cols" *ngFor="let project of projects">
-        <div class="col" ontouchstart="this.classList.toggle('hover');">
-            <div class="container">
-                <div class="front" style="background-image: url({{project.imgFront}});">
-                    <div class="inner">
-                        <p>{{project.name}}</p>
-                        <span>{{project.description}}</span>
-                    </div>
-                </div>
-                <div class="back" style="background-image: url({{project.imgBack}});">
-                    <a href="{{project.href}}">
+    <div class="page one">
+        <h2 class="heading">Projects</h2>
+        <div class="cols" *ngFor="let p of projects">
+            <div class="col" ontouchstart="this.classList.toggle('hover');">
+                <div class="container">
+                    <div class="front" style="background-image: url({{p.imgFront}});">
                         <div class="inner">
-                            <p>
-                                <a href="{{project.href}}" style="color:black">{{project.name}}</a>
-                            </p>
-                            <span style="color:black">{{project.description}}</span>
+                            <p>{{p.name}}</p>
+                            <span>{{p.description}}</span>
                         </div>
-                    </a>
+                    </div>
+                    <div class="back" style="background-image: url({{p.imgBack}});">
+                        <a href="{{p.href}}">
+                            <div class="inner">
+                                <p>
+                                    <a href="{{p.href}}" style="color:black">{{p.name}}</a>
+                                </p>
+                                <span style="color:black">{{p.description}}</span>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

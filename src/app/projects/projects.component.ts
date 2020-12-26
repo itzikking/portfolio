@@ -8,6 +8,13 @@ import { Component, OnInit } from '@angular/core';
 export class ProjectsComponent implements OnInit {
   projects = [
     {
+      name: "Snake",
+      description: "Snake Game",
+      href: "https://github.com/itzikking/SnakeGame",
+      imgFront: "https://media2.giphy.com/media/U2BUZ3yucHaolinw4m/giphy.gif",
+      imgBack: "https://media2.giphy.com/media/U2BUZ3yucHaolinw4m/giphy.gif"
+    },
+    {
       name: "M-Market",
       description: "Super market online",
       href: "https://m-market-client.herokuapp.com/",

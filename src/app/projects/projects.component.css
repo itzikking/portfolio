@@ -22,10 +22,21 @@ h2 {
   }
   
   .wrapper{
-    width: 90%;
+    width: 50%;
     margin: 0 auto;
     max-width: 80rem;
   }
+  @media only screen and (max-device-width : 640px) {
+    .wrapper{
+      width: 92%;
+    }
+    }
+    
+    @media only screen and (max-device-width: 768px) {
+      .wrapper{
+        width: 92%;
+      }
+    }
   
   .cols{
     display: -webkit-box;
@@ -69,15 +80,6 @@ h2 {
       color: #fff;
       font-size: 1.5rem;
   }
-
-  .back{
-    
-    /* background: #cedce7; */
-    /* background: -webkit-linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
-    background: -o-linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
-    background: linear-gradient(45deg,  #cedce7 0%,#596a72 100%); */
-  }
-  
   .front:after{
       position: absolute;
       top: 0;
@@ -152,7 +154,16 @@ h2 {
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
   }
-  
+  .page .heading {
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #DC143C;
+}
+.page {
+    width: 100%;
+    margin-bottom: 7em;
+}
   .front .inner p{
     font-size: 2rem;
     margin-bottom: 2rem;

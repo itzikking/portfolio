@@ -1,4 +1,4 @@
-<div class="main">
+<!-- <div class="main">
     <div #Education>
         <div class="col-md-10">
             <div id="page-1" class="page one">
@@ -126,6 +126,32 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+<div #Knowledge>
+    <div container>
+        <h2 class="heading">Programing Languages</h2>
+        <div class="row">
+            <h2></h2>
+            <div class="col" *ngFor="let ProgramingLanguage of ProgramingLanguages">
+                <div class="hover08 column">
+                    <figure>
+                        <img src="{{ProgramingLanguage}}" />
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <h2 class="heading">Systems</h2>
+        <div class="row">
+            <h2></h2>
+            <div class="col" *ngFor="let System of Systems">
+                <div class="hover08 column">
+                    <figure>
+                        <img src="{{System}}" />
+                    </figure>
                 </div>
             </div>
         </div>

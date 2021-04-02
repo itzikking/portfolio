@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
-import { ResumeComponent } from './resume/resume.component';
+import { KnowledgeComponent } from './knowledge/knowledge.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProjectsComponent } from './projects/projects.component';
 
@@ -11,7 +11,7 @@ import { ProjectsComponent } from './projects/projects.component';
   declarations: [
     AppComponent,
     AboutComponent,
-    ResumeComponent,
+    KnowledgeComponent,
     ContactComponent,
     ProjectsComponent
   ],

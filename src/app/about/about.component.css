@@ -1,122 +1,144 @@
 .mb-4 {
-    margin-bottom: 1.5rem!important;
-    
+  margin-bottom: 1.5rem !important;
 }
 span {
-    display: inline-flex;
+  display: inline-flex;
 }
 h2 {
-    font-size: 50px;
-    font-weight: 700;
+  font-size: 50px;
+  font-weight: 700;
 }
 img {
-    border-radius: 20%;
-    height: 50%;
+  border-radius: 20%;
+  height: 50%;
 }
 .ftco-about ul.about-info li span:first-child {
-    font-weight: 600;
-    color: #000;
-    width: 130px;
+  font-weight: 600;
+  color: #fff;
+  width: 130px;
 }
 .ftco-about ul.about-info li span {
-    width: calc(100% - 130px);
+  width: calc(100% - 130px);
 }
 .ftco-about ul.about-info {
-    display: inline-block;
-    padding: 0;
-    margin: 0;
-    width: 100%;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  color: #fff;
+  border: none;
+  outline: none;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
 }
 .heading-section h1.big {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 7vw;
-    color: rgba(255,255,255,.1);
-    z-index: -1;
-    font-weight: 900;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 7vw;
+  color: #fff;
+  z-index: -1;
+  font-weight: 900;
 }
-.no-gutters>.col, .no-gutters>[class*=col-] {
-    padding-right: 0;
-    padding-left: 0;
+.no-gutters > .col,
+.no-gutters > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
 }
-@media (min-width: 768px){
-    .pl-md-0, .px-md-0 {
-    padding-left: 0!important;
-    }
+@media (min-width: 768px) {
+  .pl-md-0,
+  .px-md-0 {
+    padding-left: 0 !important;
+  }
 }
 @media screen and (max-width: 580px) {
-    img {
-        height: 270px;
-    }
+  img {
+    height: 270px;
+  }
 }
 .ftco-about ul.about-info li {
-    list-style: none;
-    margin-bottom: 10px;
+  list-style: none;
+  margin-bottom: 10px;
 }
 .d-flex {
-    display: flex;
+  display: flex;
 }
 /* button */
 .glow-on-hover {
-    width: 220px;
-    height: 50px;
-    border: none;
-    outline: none;
-    color: #fff;
-    background: #111;
-    cursor: pointer;
-    position: relative;
-    z-index: 0;
-    border-radius: 10px;
+  width: 220px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
 }
 
 .glow-on-hover:before {
-    content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-    position: absolute;
-    top: -2px;
-    left:-2px;
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(5px);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    animation: glowing 20s linear infinite;
-    opacity: 0;
-    transition: opacity .3s ease-in-out;
-    border-radius: 10px;
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
 }
 
 .glow-on-hover:active {
-    color: #000
+  color: #000;
 }
 
 .glow-on-hover:active:after {
-    background: transparent;
+  background: transparent;
 }
 
 .glow-on-hover:hover:before {
-    opacity: 1;
+  opacity: 1;
 }
 
 .glow-on-hover:after {
-    z-index: -1;
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #111;
-    left: 0;
-    top: 0;
-    border-radius: 10px;
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
 }
 
 @keyframes glowing {
-    0% { background-position: 0 0; }
-    50% { background-position: 400% 0; }
-    100% { background-position: 0 0; }
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
 }
 /* button */
-
-

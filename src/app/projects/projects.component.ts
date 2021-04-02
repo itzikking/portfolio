@@ -28,13 +28,6 @@ export class ProjectsComponent implements OnInit {
       imgFront: "../../assets/projects/net-movies/netmovies-512x512.png",
       imgBack: "../../assets/projects/net-movies/movies.png"
     },
-    {
-      name: "Mosesbox-fit",
-      description: "MMA",
-      href: "https://mosesbox-fit.herokuapp.com/",
-      imgFront: "../../assets/projects/Mosesbox-fit/moses.png",
-      imgBack: "../../assets/projects/Mosesbox-fit/moses.png"
-    }
   ]
 
   constructor() { }

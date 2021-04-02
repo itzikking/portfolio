@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-resume',
-  templateUrl: './resume.component.html',
-  styleUrls: ['./resume.component.css']
+  selector: 'app-knowledge',
+  templateUrl: './knowledge.component.html',
+  styleUrls: ['./knowledge.component.css']
 })
-export class ResumeComponent implements OnInit {
+export class KnowledgeComponent implements OnInit {
   ProgramingLanguages = [
     "assets/ProgramingLanguages/javascript-original.svg",
     "assets/ProgramingLanguages/typescript-original.svg",
@@ -13,18 +13,17 @@ export class ResumeComponent implements OnInit {
     "assets/ProgramingLanguages/html5-original.svg",
     "assets/ProgramingLanguages/nodejs-original.svg",
     "assets/ProgramingLanguages/csharp-original.svg",
-    "assets/ProgramingLanguages/linq.png",
-    "assets/ProgramingLanguages/sql.jpg",
+    "assets/ProgramingLanguages/sql.png",
+    "assets/ProgramingLanguages/java.png",
     "assets/ProgramingLanguages/xml.png",
   ]
   Systems = [
     "assets/Systems/android.png",
     "assets/Systems/ios.png",
     "assets/Systems/linux.png",
-    "assets/Systems/osx.png",
     "assets/Systems/windows.png",
   ]
-  angular9 = [
+  Angular9 = [
     "rxjs",
     "material-css",
     "angular-material",
@@ -40,7 +39,7 @@ export class ResumeComponent implements OnInit {
     "redux",
     "material-ui",
   ]
-  node = [
+  Node = [
     "sequelize",
     "jwt",
     "passport",

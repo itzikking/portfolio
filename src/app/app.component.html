@@ -1,6 +1,6 @@
 <div class="row">
     <div class="context">
-        <div id="navbar" class="container red topBotomBordersOut">
+        <div id="navbar" class="container topBotomBordersOut">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -11,7 +11,7 @@
                     <div class="navbar-nav">
                         <a (click)="scroll(Home)">Home</a>
                         <a (click)="scroll(About)">About</a>
-                        <a (click)="scroll(Resume)">Resume</a>
+                        <a (click)="scroll(Knowledge)">Knowledge</a>
                         <a (click)="scroll(Projects)">Projects</a>
                     </div>
                 </div>
@@ -60,11 +60,14 @@
             <div>
                 <app-about></app-about>
             </div>
-            <hr #Resume>
+            <hr #Knowledge>
+            <br><br><br>
             <div>
-                <app-resume></app-resume>
+                <app-knowledge></app-knowledge>
             </div>
-            <div #Projects>
+            <hr #Projects>
+            <br><br><br>
+            <div>
                 <app-projects></app-projects>
             </div>
         </div>

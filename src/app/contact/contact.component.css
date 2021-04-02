@@ -1,32 +1,39 @@
-
 .icon-bar {
-    width: 90px;
-    position: fixed;
-    top: 25%;
-    
-  }
-  
-  .icon-bar a {
-    display: block;
-    text-align: center;
-    padding:25px;
-    transition: all 2.0s ease;
-    color: white;
-    font-size: 36px;
-    width: 10px;
-    padding-right: 0px;
-  }
-  
-  .icon-bar a:hover {
-    background-color:#DC143C;
-    box-shadow: 10px 15px 0px 0px rgba(1, 0, 0, 0.6)
-  }
-  .active {
-    background-color: #4CAF50; 
-  }
+  width: 85px;
+  position: fixed;
+  top: 25%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  left: -10px;
+}
 
-@media screen and (max-width: 580px) {
-    .icon-bar{
-        top: 27%;
-    }
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 25px;
+  transition: all 2s ease;
+  color: white;
+  font-size: 36px;
+  width: 10px;
+  padding-right: 0px;
+}
+
+.icon-bar a:hover {
+  background-color: #dc143c;
+  box-shadow: 10px 15px 0px 0px rgba(1, 0, 0, 0.6);
+  border-radius: 10px;
+}
+.active {
+  background-color: #4caf50;
+}
+
+@media only screen and (max-width: 600px) {
+  .icon-bar {
+    width: 70px;
+    top: 20%;
+  }
+  .icon-bar a {
+    padding: 20px;
+    font-size: 0px;
+  }
 }

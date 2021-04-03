@@ -14,6 +14,7 @@ export class KnowledgeComponent implements OnInit {
     "assets/ProgramingLanguages/nodejs-original.svg",
     "assets/ProgramingLanguages/csharp-original.svg",
     "assets/ProgramingLanguages/sql.png",
+    "assets/ProgramingLanguages/nosql.png",
     "assets/ProgramingLanguages/java.png",
     "assets/ProgramingLanguages/xml.png",
   ]
